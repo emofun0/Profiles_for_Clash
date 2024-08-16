@@ -5,59 +5,119 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇺🇸 _US_美国_1, server: 172.64.99.22, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 🇺🇸 _US_美国_2, server: 172.64.167.8, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 🇺🇸 _US_美国->🇨🇦_CA_加拿大_1, server: 172.64.167.19, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 🇺🇸 _US_美国->🇳🇴_NO_挪威, server: 34.219.130.214, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 🇷🇺 _RU_俄罗斯, server: 80.92.204.106, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8, udp: true}
-  - {name: 🇺🇸 _US_美国_3, server: 104.19.46.42, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 🇺🇸 _US_美国->🇨🇦_CA_加拿大_2, server: 104.19.45.15, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 🇺🇸 _US_美国->🇨🇦_CA_加拿大_3, server: 172.64.166.9, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 🇺🇸 _US_美国->🇨🇦_CA_加拿大_4, server: 172.64.233.35, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇺🇸 _US_美国, server: 23.227.38.6, port: 2086, type: vmess, uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇺🇸 _US_美国->🇨🇦_CA_加拿大_1, server: 104.19.32.88, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇺🇸 _US_美国->🇨🇦_CA_加拿大_2, server: singapore.com, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: singapore.com}}, udp: true}
+  - {name: 🇺🇸 _US_美国->🇨🇦_CA_加拿大_3, server: 172.64.167.25, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇺🇸 _US_美国->🇨🇦_CA_加拿大_4, server: 172.64.99.22, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇷🇺 _RU_俄罗斯, server: 80.92.204.106, port: 9061, type: ss, cipher: aes-256-cfb, password: 4R3hUfZ2FHhDmNcP, udp: true}
+  - {name: 🇺🇸 _US_美国->🇨🇦_CA_加拿大_5, server: 104.26.5.67, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇺🇸 _US_美国->🇨🇦_CA_加拿大_6, server: 172.64.166.28, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇺🇸 _US_美国->🇨🇦_CA_加拿大_7, server: 104.19.46.17, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇺🇸 _US_美国->🇨🇦_CA_加拿大_8, server: 172.64.233.37, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇺🇸 _US_美国->🇨🇦_CA_加拿大_9, server: 104.19.45.90, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇺🇸 _US_美国->🇨🇦_CA_加拿大_10, server: 104.19.47.32, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇺🇸 _US_美国->🇨🇦_CA_加拿大_11, server: 104.19.46.22, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇮🇳 _IN_印度, server: 103.113.70.81, port: 37043, type: ss, cipher: chacha20-ietf-poly1305, password: ieRF5wPYmdPaOatxvLjhFo, udp: true}
+  - {name: 🇺🇸 _US_美国->🇨🇦_CA_加拿大_12, server: skk.moe, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: skk.moe}}, udp: true}
+  - {name: 🇳🇱 _NL_荷兰->🇨🇳_CN_中国, server: 188.119.113.27, port: 16471, type: vmess, uuid: 8e48c077-32da-4d00-8128-17a94d226a41, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 _US_美国->🇨🇦_CA_加拿大_13, server: 172.64.233.32, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇺🇸 _US_美国->🇨🇦_CA_加拿大_14, server: 104.19.46.63, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇺🇸 _US_美国->🇨🇦_CA_加拿大_15, server: 104.19.58.175, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇺🇸 _US_美国->🇨🇦_CA_加拿大_16, server: 104.19.47.27, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇺🇸 _US_美国->🇨🇦_CA_加拿大_17, server: russia.com, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: russia.com}}, udp: true}
+  - {name: 🇺🇸 _US_美国->🇨🇦_CA_加拿大_18, server: 104.19.47.79, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇺🇸 _US_美国->🇨🇦_CA_加拿大_19, server: japan.com, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: japan.com}}, udp: true}
+  - {name: 🇺🇸 _US_美国->🇨🇦_CA_加拿大_20, server: 172.64.167.35, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 _US_美国_1
-      - 🇺🇸 _US_美国_2
+      - 🇺🇸 _US_美国
       - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_1
-      - 🇺🇸 _US_美国->🇳🇴_NO_挪威
-      - 🇷🇺 _RU_俄罗斯
-      - 🇺🇸 _US_美国_3
       - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_2
       - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_3
       - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_4
+      - 🇷🇺 _RU_俄罗斯
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_5
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_6
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_7
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_8
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_9
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_10
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_11
+      - 🇮🇳 _IN_印度
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_12
+      - 🇳🇱 _NL_荷兰->🇨🇳_CN_中国
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_13
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_14
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_15
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_16
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_17
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_18
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_19
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_20
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇸 _US_美国_1
-      - 🇺🇸 _US_美国_2
+      - 🇺🇸 _US_美国
       - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_1
-      - 🇺🇸 _US_美国->🇳🇴_NO_挪威
-      - 🇷🇺 _RU_俄罗斯
-      - 🇺🇸 _US_美国_3
       - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_2
       - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_3
       - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_4
+      - 🇷🇺 _RU_俄罗斯
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_5
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_6
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_7
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_8
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_9
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_10
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_11
+      - 🇮🇳 _IN_印度
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_12
+      - 🇳🇱 _NL_荷兰->🇨🇳_CN_中国
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_13
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_14
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_15
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_16
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_17
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_18
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_19
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_20
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 _US_美国_1
-      - 🇺🇸 _US_美国_2
+      - 🇺🇸 _US_美国
       - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_1
-      - 🇺🇸 _US_美国->🇳🇴_NO_挪威
-      - 🇷🇺 _RU_俄罗斯
-      - 🇺🇸 _US_美国_3
       - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_2
       - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_3
       - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_4
+      - 🇷🇺 _RU_俄罗斯
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_5
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_6
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_7
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_8
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_9
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_10
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_11
+      - 🇮🇳 _IN_印度
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_12
+      - 🇳🇱 _NL_荷兰->🇨🇳_CN_中国
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_13
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_14
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_15
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_16
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_17
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_18
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_19
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_20
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -76,15 +136,30 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 _US_美国_1
-      - 🇺🇸 _US_美国_2
+      - 🇺🇸 _US_美国
       - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_1
-      - 🇺🇸 _US_美国->🇳🇴_NO_挪威
-      - 🇷🇺 _RU_俄罗斯
-      - 🇺🇸 _US_美国_3
       - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_2
       - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_3
       - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_4
+      - 🇷🇺 _RU_俄罗斯
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_5
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_6
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_7
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_8
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_9
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_10
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_11
+      - 🇮🇳 _IN_印度
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_12
+      - 🇳🇱 _NL_荷兰->🇨🇳_CN_中国
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_13
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_14
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_15
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_16
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_17
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_18
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_19
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_20
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -95,44 +170,89 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇺🇸 _US_美国_1
-      - 🇺🇸 _US_美国_2
+      - 🇺🇸 _US_美国
       - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_1
-      - 🇺🇸 _US_美国->🇳🇴_NO_挪威
-      - 🇷🇺 _RU_俄罗斯
-      - 🇺🇸 _US_美国_3
       - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_2
       - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_3
       - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_4
+      - 🇷🇺 _RU_俄罗斯
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_5
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_6
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_7
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_8
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_9
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_10
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_11
+      - 🇮🇳 _IN_印度
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_12
+      - 🇳🇱 _NL_荷兰->🇨🇳_CN_中国
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_13
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_14
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_15
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_16
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_17
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_18
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_19
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_20
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇺🇸 _US_美国_1
-      - 🇺🇸 _US_美国_2
+      - 🇺🇸 _US_美国
       - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_1
-      - 🇺🇸 _US_美国->🇳🇴_NO_挪威
-      - 🇷🇺 _RU_俄罗斯
-      - 🇺🇸 _US_美国_3
       - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_2
       - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_3
       - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_4
+      - 🇷🇺 _RU_俄罗斯
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_5
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_6
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_7
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_8
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_9
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_10
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_11
+      - 🇮🇳 _IN_印度
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_12
+      - 🇳🇱 _NL_荷兰->🇨🇳_CN_中国
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_13
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_14
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_15
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_16
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_17
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_18
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_19
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_20
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 _US_美国_1
-      - 🇺🇸 _US_美国_2
+      - 🇺🇸 _US_美国
       - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_1
-      - 🇺🇸 _US_美国->🇳🇴_NO_挪威
-      - 🇷🇺 _RU_俄罗斯
-      - 🇺🇸 _US_美国_3
       - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_2
       - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_3
       - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_4
+      - 🇷🇺 _RU_俄罗斯
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_5
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_6
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_7
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_8
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_9
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_10
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_11
+      - 🇮🇳 _IN_印度
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_12
+      - 🇳🇱 _NL_荷兰->🇨🇳_CN_中国
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_13
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_14
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_15
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_16
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_17
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_18
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_19
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_20
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -148,15 +268,30 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 _US_美国_1
-      - 🇺🇸 _US_美国_2
+      - 🇺🇸 _US_美国
       - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_1
-      - 🇺🇸 _US_美国->🇳🇴_NO_挪威
-      - 🇷🇺 _RU_俄罗斯
-      - 🇺🇸 _US_美国_3
       - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_2
       - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_3
       - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_4
+      - 🇷🇺 _RU_俄罗斯
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_5
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_6
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_7
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_8
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_9
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_10
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_11
+      - 🇮🇳 _IN_印度
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_12
+      - 🇳🇱 _NL_荷兰->🇨🇳_CN_中国
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_13
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_14
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_15
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_16
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_17
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_18
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_19
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大_20
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
