@@ -9,7 +9,7 @@ proxies:
   obfs: plain
   obfs-param: ''
   password: dongtaiwang.com
-  port: 44112
+  port: 55511
   protocol: auth_chain_a
   protocol-param: ''
   server: dongtaiwang5.com
@@ -18,15 +18,15 @@ proxies:
 - cipher: aes-256-gcm
   name: United States Los Angeles 001
   password: dongtaiwang.com
-  port: 23456
-  server: 23.170.40.163
+  port: 12345
+  server: 91.149.239.116
   type: ss
   udp: true
 - alterId: 0
   cipher: auto
   name: United States Los Angeles 002
   network: ws
-  port: 23008
+  port: 19911
   server: 166.1.221.204
   skip-cert-verify: true
   tls: false
@@ -34,8 +34,6 @@ proxies:
   udp: true
   uuid: fba82601-e773-42db-b9dc-2b7fa1882d3f
   ws-opts:
-    headers:
-      Host: www.bing.com
     path: github.com/Alvin9999
 proxy-groups:
 - name: "\U0001F530 \u8282\u70B9\u9009\u62E9"
