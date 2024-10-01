@@ -42,10 +42,10 @@ proxies:
   type: ssr
   udp: true
 - cipher: aes-256-gcm
-  name: United States Los Angeles 002
+  name: United States Wilmington 002
   password: dongtaiwang.com
   port: 11111
-  server: 38.114.103.235
+  server: 166.1.18.237
   type: ss
   udp: true
 proxy-groups:
@@ -54,7 +54,7 @@ proxy-groups:
   - Canada Toronto 003
   - United States Dallas 000
   - United States Los Angeles 001
-  - United States Los Angeles 002
+  - United States Wilmington 002
   - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   type: select
@@ -64,7 +64,7 @@ proxy-groups:
   - Canada Toronto 003
   - United States Dallas 000
   - United States Los Angeles 001
-  - United States Los Angeles 002
+  - United States Wilmington 002
   type: url-test
   url: http://www.gstatic.com/generate_204
 - name: "\U0001F3A5 NETFLIX"
@@ -72,7 +72,7 @@ proxy-groups:
   - Canada Toronto 003
   - United States Dallas 000
   - United States Los Angeles 001
-  - United States Los Angeles 002
+  - United States Wilmington 002
   - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   - "\U0001F530 \u8282\u70B9\u9009\u62E9"
@@ -94,7 +94,7 @@ proxy-groups:
   - Canada Toronto 003
   - United States Dallas 000
   - United States Los Angeles 001
-  - United States Los Angeles 002
+  - United States Wilmington 002
   - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   - "\U0001F530 \u8282\u70B9\u9009\u62E9"
@@ -109,7 +109,7 @@ proxy-groups:
   - Canada Toronto 003
   - United States Dallas 000
   - United States Los Angeles 001
-  - United States Los Angeles 002
+  - United States Wilmington 002
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   - "\U0001F530 \u8282\u70B9\u9009\u62E9"
   type: select
@@ -118,7 +118,7 @@ proxy-groups:
   - Canada Toronto 003
   - United States Dallas 000
   - United States Los Angeles 001
-  - United States Los Angeles 002
+  - United States Wilmington 002
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   - "\U0001F530 \u8282\u70B9\u9009\u62E9"
   type: select
@@ -127,7 +127,7 @@ proxy-groups:
   - Canada Toronto 003
   - United States Dallas 000
   - United States Los Angeles 001
-  - United States Los Angeles 002
+  - United States Wilmington 002
   - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   - "\U0001F530 \u8282\u70B9\u9009\u62E9"
@@ -146,7 +146,7 @@ proxy-groups:
   - Canada Toronto 003
   - United States Dallas 000
   - United States Los Angeles 001
-  - United States Los Angeles 002
+  - United States Wilmington 002
   - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   - "\U0001F530 \u8282\u70B9\u9009\u62E9"
