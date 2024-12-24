@@ -8,7 +8,7 @@ proxies:
   cipher: auto
   name: Germany Frankfurt am Main 003
   network: ws
-  port: 40001
+  port: 10003
   server: 45.154.207.99
   skip-cert-verify: true
   tls: false
