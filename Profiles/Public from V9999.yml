@@ -8,13 +8,13 @@ proxies:
   cipher: auto
   name: Germany Frankfurt am Main 003
   network: ws
-  port: 10003
-  server: 45.154.207.99
+  port: 49443
+  server: 185.226.172.156
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: 0084b5d0-8966-4398-87f8-d5d8b64aa356
+  uuid: 9c2c632a-c88f-478f-afea-629764427d51
   ws-opts:
     path: github.com/Alvin9999
 - cipher: dummy
