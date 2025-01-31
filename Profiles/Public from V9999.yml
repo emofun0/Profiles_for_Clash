@@ -4,13 +4,6 @@ log-level: info
 mode: Rule
 port: 7890
 proxies:
-- cipher: aes-256-gcm
-  name: France Paris 001
-  password: dongtaiwang.com
-  port: 12345
-  server: 163.172.121.25
-  type: ss
-  udp: true
 - cipher: aes-256-cfb
   name: Russia Moscow 000
   obfs: tls1.2_ticket_auth
@@ -22,11 +15,18 @@ proxies:
   server: dongtaiwang5.com
   type: ssr
   udp: true
+- cipher: aes-256-gcm
+  name: Russia Moscow 001
+  password: dongtaiwang.com
+  port: 23456
+  server: 46.17.42.248
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   name: Russia Moscow 002
   network: ws
-  port: 49663
+  port: 16243
   server: 185.22.153.73
   skip-cert-verify: true
   tls: false
@@ -38,8 +38,8 @@ proxies:
 proxy-groups:
 - name: "\U0001F530 \u8282\u70B9\u9009\u62E9"
   proxies:
-  - France Paris 001
   - Russia Moscow 000
+  - Russia Moscow 001
   - Russia Moscow 002
   - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
@@ -47,15 +47,15 @@ proxy-groups:
 - interval: 300
   name: "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
   proxies:
-  - France Paris 001
   - Russia Moscow 000
+  - Russia Moscow 001
   - Russia Moscow 002
   type: url-test
   url: http://www.gstatic.com/generate_204
 - name: "\U0001F3A5 NETFLIX"
   proxies:
-  - France Paris 001
   - Russia Moscow 000
+  - Russia Moscow 001
   - Russia Moscow 002
   - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
@@ -75,8 +75,8 @@ proxy-groups:
   type: select
 - name: "\U0001F30D \u56FD\u5916\u5A92\u4F53"
   proxies:
-  - France Paris 001
   - Russia Moscow 000
+  - Russia Moscow 001
   - Russia Moscow 002
   - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
@@ -89,24 +89,24 @@ proxy-groups:
   type: select
 - name: "\u24C2\uFE0F \u5FAE\u8F6F\u670D\u52A1"
   proxies:
-  - France Paris 001
   - Russia Moscow 000
+  - Russia Moscow 001
   - Russia Moscow 002
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   - "\U0001F530 \u8282\u70B9\u9009\u62E9"
   type: select
 - name: "\U0001F4F2 \u7535\u62A5\u4FE1\u606F"
   proxies:
-  - France Paris 001
   - Russia Moscow 000
+  - Russia Moscow 001
   - Russia Moscow 002
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   - "\U0001F530 \u8282\u70B9\u9009\u62E9"
   type: select
 - name: "\U0001F34E \u82F9\u679C\u670D\u52A1"
   proxies:
-  - France Paris 001
   - Russia Moscow 000
+  - Russia Moscow 001
   - Russia Moscow 002
   - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
@@ -123,8 +123,8 @@ proxy-groups:
   type: select
 - name: "\U0001F41F \u6F0F\u7F51\u4E4B\u9C7C"
   proxies:
-  - France Paris 001
   - Russia Moscow 000
+  - Russia Moscow 001
   - Russia Moscow 002
   - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
