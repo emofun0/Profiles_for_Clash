@@ -18,15 +18,15 @@ proxies:
 - cipher: aes-256-gcm
   name: Russia Moscow 001
   password: dongtaiwang.com
-  port: 23456
-  server: 46.17.42.248
+  port: 11111
+  server: 46.17.44.144
   type: ss
   udp: true
 - alterId: 0
   cipher: auto
   name: Russia Moscow 002
   network: ws
-  port: 16243
+  port: 43372
   server: 185.22.153.73
   skip-cert-verify: true
   tls: false
