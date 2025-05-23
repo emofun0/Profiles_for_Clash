@@ -26,7 +26,7 @@ proxies:
   cipher: auto
   name: France Ivry-sur-Seine 002
   network: ws
-  port: 18243
+  port: 39604
   server: 195.154.40.247
   skip-cert-verify: true
   tls: false
