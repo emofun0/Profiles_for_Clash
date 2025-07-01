@@ -9,7 +9,7 @@ proxies:
   obfs: tls1.2_ticket_auth
   obfs-param: ''
   password: dongtaiwang.com
-  port: 35000
+  port: 19000
   protocol: auth_chain_a
   protocol-param: ''
   server: dongtaiwang5.com
@@ -19,7 +19,7 @@ proxies:
   cipher: auto
   name: France Paris 002
   network: ws
-  port: 19462
+  port: 40107
   server: 195.154.40.247
   skip-cert-verify: true
   tls: false
@@ -33,7 +33,7 @@ proxies:
 - cipher: aes-256-gcm
   name: Russia Moscow 001
   password: dongtaiwang.com
-  port: 22222
+  port: 38674
   server: 46.17.40.79
   type: ss
   udp: true
