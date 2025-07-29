@@ -19,7 +19,7 @@ proxies:
   cipher: auto
   name: France Paris 002
   network: ws
-  port: 59037
+  port: 48227
   server: 195.154.40.247
   skip-cert-verify: true
   tls: false
@@ -31,10 +31,10 @@ proxies:
       Host: www.bing.com
     path: github.com/Alvin9999
 - cipher: aes-256-gcm
-  name: Russia Moscow 001
+  name: Poland Warsaw 001
   password: dongtaiwang.com
-  port: 38674
-  server: 46.17.40.79
+  port: 11111
+  server: 92.118.205.61
   type: ss
   udp: true
 proxy-groups:
@@ -42,7 +42,7 @@ proxy-groups:
   proxies:
   - France Paris 000
   - France Paris 002
-  - Russia Moscow 001
+  - Poland Warsaw 001
   - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   type: select
@@ -51,14 +51,14 @@ proxy-groups:
   proxies:
   - France Paris 000
   - France Paris 002
-  - Russia Moscow 001
+  - Poland Warsaw 001
   type: url-test
   url: http://www.gstatic.com/generate_204
 - name: "\U0001F3A5 NETFLIX"
   proxies:
   - France Paris 000
   - France Paris 002
-  - Russia Moscow 001
+  - Poland Warsaw 001
   - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   - "\U0001F530 \u8282\u70B9\u9009\u62E9"
@@ -79,7 +79,7 @@ proxy-groups:
   proxies:
   - France Paris 000
   - France Paris 002
-  - Russia Moscow 001
+  - Poland Warsaw 001
   - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   - "\U0001F530 \u8282\u70B9\u9009\u62E9"
@@ -93,7 +93,7 @@ proxy-groups:
   proxies:
   - France Paris 000
   - France Paris 002
-  - Russia Moscow 001
+  - Poland Warsaw 001
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   - "\U0001F530 \u8282\u70B9\u9009\u62E9"
   type: select
@@ -101,7 +101,7 @@ proxy-groups:
   proxies:
   - France Paris 000
   - France Paris 002
-  - Russia Moscow 001
+  - Poland Warsaw 001
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   - "\U0001F530 \u8282\u70B9\u9009\u62E9"
   type: select
@@ -109,7 +109,7 @@ proxy-groups:
   proxies:
   - France Paris 000
   - France Paris 002
-  - Russia Moscow 001
+  - Poland Warsaw 001
   - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   - "\U0001F530 \u8282\u70B9\u9009\u62E9"
@@ -127,7 +127,7 @@ proxy-groups:
   proxies:
   - France Paris 000
   - France Paris 002
-  - Russia Moscow 001
+  - Poland Warsaw 001
   - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   - "\U0001F530 \u8282\u70B9\u9009\u62E9"
