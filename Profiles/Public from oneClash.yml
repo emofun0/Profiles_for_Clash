@@ -5,111 +5,67 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇺🇸 美国_1, server: entrance04.qqa678.cc, port: 47084, type: vmess, uuid: a6560b60-5122-40d7-bcb6-650c98c88ea5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国_2, server: entrance04.qqa678.cc, port: 47081, type: vmess, uuid: a6560b60-5122-40d7-bcb6-650c98c88ea5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇫🇷 法国_1, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 🇫🇷 法国_2, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 🇺🇸 美国_3, server: 172.67.160.44, port: 443, type: vmess, uuid: 086c655d-0c12-47dd-9d5a-2670089201ee, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: 7c681e58-53be-8513-d3ea-bd425436e356.huangshang.site, network: ws, ws-opts: {path: /ri9mOOVJuAimB74kgXZ, headers: {Host: 7c681e58-53be-8513-d3ea-bd425436e356.huangshang.site}}, udp: true}
-  - {name: 🇺🇸 美国_4, server: entrance02.qqa678.cc, port: 47083, type: vmess, uuid: a6560b60-5122-40d7-bcb6-650c98c88ea5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国_5, server: entrance01.qqa678.cc, port: 47084, type: vmess, uuid: 8e94ed0e-3717-4c46-aa13-6757a89b392e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国_6, server: "2001:41d0:70e:c100::", port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: serkat.org, network: ws, ws-opts: {path: /linkvws, headers: {Host: serkat.org}}, udp: true}
-  - {name: 🇺🇸 美国_7, server: v8.heduian.link, port: 30808, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, servername: v8.heduian.link, network: ws, ws-opts: {path: /oooo, headers: {Host: v8.heduian.link}}, udp: true}
-  - {name: 🇺🇸 美国_8, server: v29.heduian.link, port: 30829, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, servername: ocbc.com, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}, udp: true}
-  - {name: 🇺🇸 美国_9, server: switcher-nick-croquet.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 9tqhMdIrTkgQ46PvhyAtMH, udp: true}
-  - {name: 🇩🇪 德国_1, server: 45.87.175.155, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, udp: true}
-  - {name: 🇩🇪 德国_2, server: 45.87.175.174, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, udp: true}
-  - {name: 🇺🇸 美国_10, server: 151.242.251.152, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, udp: true}
-  - {name: 🇩🇪 德国_3, server: 45.87.175.197, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, udp: true}
-  - {name: 🇺🇸 美国_11, server: switcher-nick-croquet.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: RFK38Cg7APneSB5cWDcpbm, udp: true}
-  - {name: 🇺🇸 美国_12, server: arxfw2b78fi2q9hzylhn.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Nk9asglDzHzjktVzTkvhaA, udp: true}
-  - {name: 🇺🇸 美国_38, server: 138.124.118.34, port: 443, type: trojan, password: iwangjie, sni: nodes.830901.xyz, skip-cert-verify: true, network: ws, ws-opts: {path: /proxyip=proxyip.fxxk.dedyn.io, headers: {Host: nodes.830901.xyz}}, udp: true}
-  - {name: 🇺🇸 美国_39, server: tuntro001.instconn.com, port: 443, type: trojan, password: ef269dbc-0486-451f-b94b-d0c354bc3f1c, sni: awshk.686911.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国_40, server: 141.94.68.216, port: 2053, type: trojan, password: iwangjie, sni: nodes.830901.xyz, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: nodes.830901.xyz}}, udp: true}
-  - {name: 🇺🇸 美国_41, server: 135.125.232.253, port: 2053, type: trojan, password: iwangjie, sni: nodes.830901.xyz, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: nodes.830901.xyz}}, udp: true}
-  - {name: 🇺🇸 美国_42, server: 83.147.254.185, port: 443, type: trojan, password: iwangjie, sni: nodes.830901.xyz, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: nodes.830901.xyz}}, udp: true}
+  - {name: 🇫🇷 法国_2, server: 2001:bc8:32d7:30b::201, port: 33200, type: vmess, uuid: 82dc5319-662c-4ca5-8e82-69744d2300c1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: www.bing.com, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: www.bing.com}}, udp: true}
+  - {name: 🇫🇷 法国_3, server: 2001:bc8:32d7:30b::201, port: 33200, type: vmess, uuid: 82dc5319-662c-4ca5-8e82-69744d2300c1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: www.bing.com, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: www.bing.com}}, udp: true}
+  - {name: 🇫🇷 法国_4, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇫🇷 法国_5, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN"}, udp: true}
+  - {name: 🇺🇸 美国_1, server: bestcdn3.868863.xyz, port: 443, type: vmess, uuid: 07fe5ad4-6157-4857-91fe-8270ebd648d9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: vv-c2-cdn.the-best-airport.top, network: ws, ws-opts: {path: /aejynik, headers: {Host: vv-c2-cdn.the-best-airport.top}}, udp: true}
+  - {name: 🇺🇸 美国_2, server: bestcdn1.868863.xyz, port: 443, type: vmess, uuid: 07fe5ad4-6157-4857-91fe-8270ebd648d9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: vv-a2-cdn.the-best-airport.top, network: ws, ws-opts: {path: /aejynik, headers: {Host: vv-a2-cdn.the-best-airport.top}}, udp: true}
+  - {name: 🇺🇸 美国_3, server: bestcdn1.868863.xyz, port: 443, type: vmess, uuid: 07fe5ad4-6157-4857-91fe-8270ebd648d9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: vv-a4-cdn.the-best-airport.top, network: ws, ws-opts: {path: /aejynik, headers: {Host: vv-a4-cdn.the-best-airport.top}}, udp: true}
+  - {name: 🇫🇷 法国_6, server: "2001:41d0:70e:c100::", port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: serkat.org, network: ws, ws-opts: {path: /linkvws, headers: {Host: serkat.org}}, udp: true}
+  - {name: 🇺🇸 美国_4, server: switcher-nick-croquet.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 9tqhMdIrTkgQ46PvhyAtMH, udp: true}
+  - {name: 🇺🇸 美国_5, server: switcher-nick-croquet.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: RFK38Cg7APneSB5cWDcpbm, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 美国_1
-      - 🇺🇸 美国_2
       - 🇫🇷 法国_1
       - 🇫🇷 法国_2
+      - 🇫🇷 法国_3
+      - 🇫🇷 法国_4
+      - 🇫🇷 法国_5
+      - 🇺🇸 美国_1
+      - 🇺🇸 美国_2
       - 🇺🇸 美国_3
+      - 🇫🇷 法国_6
       - 🇺🇸 美国_4
       - 🇺🇸 美国_5
-      - 🇺🇸 美国_6
-      - 🇺🇸 美国_7
-      - 🇺🇸 美国_8
-      - 🇺🇸 美国_9
-      - 🇩🇪 德国_1
-      - 🇩🇪 德国_2
-      - 🇺🇸 美国_10
-      - 🇩🇪 德国_3
-      - 🇺🇸 美国_11
-      - 🇺🇸 美国_12
-      - 🇺🇸 美国_38
-      - 🇺🇸 美国_39
-      - 🇺🇸 美国_40
-      - 🇺🇸 美国_41
-      - 🇺🇸 美国_42
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇸 美国_1
-      - 🇺🇸 美国_2
       - 🇫🇷 法国_1
       - 🇫🇷 法国_2
+      - 🇫🇷 法国_3
+      - 🇫🇷 法国_4
+      - 🇫🇷 法国_5
+      - 🇺🇸 美国_1
+      - 🇺🇸 美国_2
       - 🇺🇸 美国_3
+      - 🇫🇷 法国_6
       - 🇺🇸 美国_4
       - 🇺🇸 美国_5
-      - 🇺🇸 美国_6
-      - 🇺🇸 美国_7
-      - 🇺🇸 美国_8
-      - 🇺🇸 美国_9
-      - 🇩🇪 德国_1
-      - 🇩🇪 德国_2
-      - 🇺🇸 美国_10
-      - 🇩🇪 德国_3
-      - 🇺🇸 美国_11
-      - 🇺🇸 美国_12
-      - 🇺🇸 美国_38
-      - 🇺🇸 美国_39
-      - 🇺🇸 美国_40
-      - 🇺🇸 美国_41
-      - 🇺🇸 美国_42
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 美国_1
-      - 🇺🇸 美国_2
       - 🇫🇷 法国_1
       - 🇫🇷 法国_2
+      - 🇫🇷 法国_3
+      - 🇫🇷 法国_4
+      - 🇫🇷 法国_5
+      - 🇺🇸 美国_1
+      - 🇺🇸 美国_2
       - 🇺🇸 美国_3
+      - 🇫🇷 法国_6
       - 🇺🇸 美国_4
       - 🇺🇸 美国_5
-      - 🇺🇸 美国_6
-      - 🇺🇸 美国_7
-      - 🇺🇸 美国_8
-      - 🇺🇸 美国_9
-      - 🇩🇪 德国_1
-      - 🇩🇪 德国_2
-      - 🇺🇸 美国_10
-      - 🇩🇪 德国_3
-      - 🇺🇸 美国_11
-      - 🇺🇸 美国_12
-      - 🇺🇸 美国_38
-      - 🇺🇸 美国_39
-      - 🇺🇸 美国_40
-      - 🇺🇸 美国_41
-      - 🇺🇸 美国_42
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -128,28 +84,17 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 美国_1
-      - 🇺🇸 美国_2
       - 🇫🇷 法国_1
       - 🇫🇷 法国_2
+      - 🇫🇷 法国_3
+      - 🇫🇷 法国_4
+      - 🇫🇷 法国_5
+      - 🇺🇸 美国_1
+      - 🇺🇸 美国_2
       - 🇺🇸 美国_3
+      - 🇫🇷 法国_6
       - 🇺🇸 美国_4
       - 🇺🇸 美国_5
-      - 🇺🇸 美国_6
-      - 🇺🇸 美国_7
-      - 🇺🇸 美国_8
-      - 🇺🇸 美国_9
-      - 🇩🇪 德国_1
-      - 🇩🇪 德国_2
-      - 🇺🇸 美国_10
-      - 🇩🇪 德国_3
-      - 🇺🇸 美国_11
-      - 🇺🇸 美国_12
-      - 🇺🇸 美国_38
-      - 🇺🇸 美国_39
-      - 🇺🇸 美国_40
-      - 🇺🇸 美国_41
-      - 🇺🇸 美国_42
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -160,83 +105,50 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇺🇸 美国_1
-      - 🇺🇸 美国_2
       - 🇫🇷 法国_1
       - 🇫🇷 法国_2
+      - 🇫🇷 法国_3
+      - 🇫🇷 法国_4
+      - 🇫🇷 法国_5
+      - 🇺🇸 美国_1
+      - 🇺🇸 美国_2
       - 🇺🇸 美国_3
+      - 🇫🇷 法国_6
       - 🇺🇸 美国_4
       - 🇺🇸 美国_5
-      - 🇺🇸 美国_6
-      - 🇺🇸 美国_7
-      - 🇺🇸 美国_8
-      - 🇺🇸 美国_9
-      - 🇩🇪 德国_1
-      - 🇩🇪 德国_2
-      - 🇺🇸 美国_10
-      - 🇩🇪 德国_3
-      - 🇺🇸 美国_11
-      - 🇺🇸 美国_12
-      - 🇺🇸 美国_38
-      - 🇺🇸 美国_39
-      - 🇺🇸 美国_40
-      - 🇺🇸 美国_41
-      - 🇺🇸 美国_42
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇺🇸 美国_1
-      - 🇺🇸 美国_2
       - 🇫🇷 法国_1
       - 🇫🇷 法国_2
+      - 🇫🇷 法国_3
+      - 🇫🇷 法国_4
+      - 🇫🇷 法国_5
+      - 🇺🇸 美国_1
+      - 🇺🇸 美国_2
       - 🇺🇸 美国_3
+      - 🇫🇷 法国_6
       - 🇺🇸 美国_4
       - 🇺🇸 美国_5
-      - 🇺🇸 美国_6
-      - 🇺🇸 美国_7
-      - 🇺🇸 美国_8
-      - 🇺🇸 美国_9
-      - 🇩🇪 德国_1
-      - 🇩🇪 德国_2
-      - 🇺🇸 美国_10
-      - 🇩🇪 德国_3
-      - 🇺🇸 美国_11
-      - 🇺🇸 美国_12
-      - 🇺🇸 美国_38
-      - 🇺🇸 美国_39
-      - 🇺🇸 美国_40
-      - 🇺🇸 美国_41
-      - 🇺🇸 美国_42
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 美国_1
-      - 🇺🇸 美国_2
       - 🇫🇷 法国_1
       - 🇫🇷 法国_2
+      - 🇫🇷 法国_3
+      - 🇫🇷 法国_4
+      - 🇫🇷 法国_5
+      - 🇺🇸 美国_1
+      - 🇺🇸 美国_2
       - 🇺🇸 美国_3
+      - 🇫🇷 法国_6
       - 🇺🇸 美国_4
       - 🇺🇸 美国_5
-      - 🇺🇸 美国_6
-      - 🇺🇸 美国_7
-      - 🇺🇸 美国_8
-      - 🇺🇸 美国_9
-      - 🇩🇪 德国_1
-      - 🇩🇪 德国_2
-      - 🇺🇸 美国_10
-      - 🇩🇪 德国_3
-      - 🇺🇸 美国_11
-      - 🇺🇸 美国_12
-      - 🇺🇸 美国_38
-      - 🇺🇸 美国_39
-      - 🇺🇸 美国_40
-      - 🇺🇸 美国_41
-      - 🇺🇸 美国_42
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -252,28 +164,17 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 美国_1
-      - 🇺🇸 美国_2
       - 🇫🇷 法国_1
       - 🇫🇷 法国_2
+      - 🇫🇷 法国_3
+      - 🇫🇷 法国_4
+      - 🇫🇷 法国_5
+      - 🇺🇸 美国_1
+      - 🇺🇸 美国_2
       - 🇺🇸 美国_3
+      - 🇫🇷 法国_6
       - 🇺🇸 美国_4
       - 🇺🇸 美国_5
-      - 🇺🇸 美国_6
-      - 🇺🇸 美国_7
-      - 🇺🇸 美国_8
-      - 🇺🇸 美国_9
-      - 🇩🇪 德国_1
-      - 🇩🇪 德国_2
-      - 🇺🇸 美国_10
-      - 🇩🇪 德国_3
-      - 🇺🇸 美国_11
-      - 🇺🇸 美国_12
-      - 🇺🇸 美国_38
-      - 🇺🇸 美国_39
-      - 🇺🇸 美国_40
-      - 🇺🇸 美国_41
-      - 🇺🇸 美国_42
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
