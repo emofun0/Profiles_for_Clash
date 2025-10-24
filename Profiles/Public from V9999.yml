@@ -30,7 +30,7 @@ proxies:
   cipher: auto
   name: France Paris 002
   network: ws
-  port: 33200
+  port: 55112
   server: 2001:bc8:32d7:30b::201
   skip-cert-verify: true
   tls: false
