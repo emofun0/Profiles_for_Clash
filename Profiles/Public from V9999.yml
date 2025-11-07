@@ -31,7 +31,7 @@ proxies:
       Host: www.bing.com
     path: /github.com/Alvin9999
 - cipher: chacha20-ietf
-  name: United States Seattle 000
+  name: The Netherlands Haarlem 000
   obfs: tls1.2_ticket_auth
   obfs-param: ''
   password: dongtaiwang.com
@@ -46,7 +46,7 @@ proxy-groups:
   proxies:
   - France Paris 001
   - France Paris 002
-  - United States Seattle 000
+  - The Netherlands Haarlem 000
   - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   type: select
@@ -55,14 +55,14 @@ proxy-groups:
   proxies:
   - France Paris 001
   - France Paris 002
-  - United States Seattle 000
+  - The Netherlands Haarlem 000
   type: url-test
   url: http://www.gstatic.com/generate_204
 - name: "\U0001F3A5 NETFLIX"
   proxies:
   - France Paris 001
   - France Paris 002
-  - United States Seattle 000
+  - The Netherlands Haarlem 000
   - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   - "\U0001F530 \u8282\u70B9\u9009\u62E9"
@@ -83,7 +83,7 @@ proxy-groups:
   proxies:
   - France Paris 001
   - France Paris 002
-  - United States Seattle 000
+  - The Netherlands Haarlem 000
   - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   - "\U0001F530 \u8282\u70B9\u9009\u62E9"
@@ -97,7 +97,7 @@ proxy-groups:
   proxies:
   - France Paris 001
   - France Paris 002
-  - United States Seattle 000
+  - The Netherlands Haarlem 000
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   - "\U0001F530 \u8282\u70B9\u9009\u62E9"
   type: select
@@ -105,7 +105,7 @@ proxy-groups:
   proxies:
   - France Paris 001
   - France Paris 002
-  - United States Seattle 000
+  - The Netherlands Haarlem 000
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   - "\U0001F530 \u8282\u70B9\u9009\u62E9"
   type: select
@@ -113,7 +113,7 @@ proxy-groups:
   proxies:
   - France Paris 001
   - France Paris 002
-  - United States Seattle 000
+  - The Netherlands Haarlem 000
   - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   - "\U0001F530 \u8282\u70B9\u9009\u62E9"
@@ -131,7 +131,7 @@ proxy-groups:
   proxies:
   - France Paris 001
   - France Paris 002
-  - United States Seattle 000
+  - The Netherlands Haarlem 000
   - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   - "\U0001F530 \u8282\u70B9\u9009\u62E9"
