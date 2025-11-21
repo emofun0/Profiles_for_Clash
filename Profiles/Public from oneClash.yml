@@ -5,75 +5,131 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇺🇸 US²_2|0.6MB/s|18%|GPT|YT-CN|TK|NF|X|KeepHistory, server: onecat-us.03ezhg0qsa.download, port: 25024, type: vmess, uuid: 69749298-6821-3358-b6d3-1d18d8642cba, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国, server: 116.49.237.130, port: 518, type: trojan, password: BxceQaOe, sni: t.me/ripaojiedian, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 _CN_中国_1, server: 116.49.237.130, port: 4094, type: trojan, password: BxceQaOe, sni: t.me/ripaojiedian, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 日本4|@ripaojiedian, server: 114.98.183.61, port: 47083, type: vmess, uuid: b3fa070f-5511-48be-934b-f632f6b8a7c7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 _US_美国_1, server: 65.109.227.138, port: 2053, type: trojan, password: 7d82af32-915f-4619-aa9c-7d3b612d33ff, sni: joss.dus.biz.id, skip-cert-verify: true, network: ws, ws-opts: {path: /Free-VPN-CF-Geo-Project/65.109.227.138=2053, headers: {Host: joss.dus.biz.id}}, udp: true}
-  - {name: 🇳🇱 _NL_荷兰_1, server: 45.144.48.55, port: 2053, type: trojan, password: 55d19115-ec40-407b-a674-74e6a948347a, sni: joss.dus.biz.id, skip-cert-verify: true, network: ws, ws-opts: {path: /Free-VPN-CF-Geo-Project/45.144.48.55=2053, headers: {Host: joss.dus.biz.id}}, udp: true}
-  - {name: 🇨🇳 CN-144.48.180.186-7884, server: v12.heduian.link, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, servername: ocbc.com, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}, udp: true}
-  - {name: 🇨🇳 _CN_中国_2, server: 58.152.110.9, port: 443, type: trojan, password: 2274c52572e721086f8bd8f88984643c, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
-  - {name: 🇳🇱 _NL_荷兰_2, server: 86.107.197.239, port: 443, type: trojan, password: 5ad5fe82-6b60-4f59-977b-93910ef7a9ca, sni: joss.dus.biz.id, skip-cert-verify: true, network: ws, ws-opts: {path: /Free-VPN-CF-Geo-Project/86.107.197.239=443, headers: {Host: joss.dus.biz.id}}, udp: true}
-  - {name: 🇸🇪 _SE_瑞典, server: 193.180.211.52, port: 443, type: trojan, password: 72a9357f-8841-4229-ad79-c3fdee0aae51, sni: joss.dus.biz.id, skip-cert-verify: true, network: ws, ws-opts: {path: /Free-VPN-CF-Geo-Project/193.180.211.52=443, headers: {Host: joss.dus.biz.id}}, udp: true}
-  - {name: 🇺🇸 _US_美国_8, server: 23.95.75.146, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: NDRySIABARbErNIVsCNVkyYAHiBzhveT, udp: true}
-  - {name: 🇷🇺 _RU_俄罗斯, server: 45.14.245.2, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 17ZDORWIliQHuO6WRGHChXYMzdRtAYVP, udp: true}
-  - {name: 🇰🇷 _KR_韩国, server: 221.139.79.57, port: 37008, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
+  - {name: 🇷🇺 _RU_俄罗斯_1, server: 217.30.10.18, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, udp: true}
+  - {name: 🇺🇸 _US_美国_1, server: 69.50.95.203, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 🇺🇸 _US_美国_2, server: 34.209.103.254, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 🇺🇸 _US_美国_3, server: 35.88.126.102, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 🇺🇸 _US_美国_4, server: 69.50.95.203, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 🇺🇸 _US_美国_5, server: 54.202.75.206, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 🇺🇸 _US_美国_6, server: 35.95.35.11, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 🇺🇸 _US_美国_7, server: 69.50.95.203, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 🇺🇸 _US_美国_8, server: 35.86.117.124, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 🇺🇸 _US_美国_9, server: 34.220.216.220, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 🇺🇸 _US_美国_10, server: 69.50.95.203, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 🇺🇸 _US_美国_11, server: 44.242.211.17, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 🇺🇸 _US_美国_12, server: admin.c2.havij.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: btF2uCBn2Cz11kIA, udp: true}
+  - {name: 🇺🇸 _US_美国_13, server: 69.50.95.203, port: 5499, type: ss, cipher: aes-256-gcm, password: lGqs95QkFHo2NV, udp: true}
+  - {name: 🇺🇸 _US_美国_14, server: 44.243.225.84, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 🇺🇸 _GB_英国->🇺🇸_US_美国, server: series-a1.samanehha.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: W74XFALLLuw6m5IA, udp: true}
+  - {name: 🇩🇪 _DE_德国->🇹🇷_TR_土耳其, server: 45.87.175.164, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
+  - {name: 🇺🇸 _US_美国_15, server: 69.50.95.203, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 🇺🇸 _US_美国->🇨🇳_CN_中国, server: 34.219.118.99, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 🇸🇬 _SG_新加坡, server: 13.229.182.85, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 🇺🇸 _US_美国_16, server: 34.219.157.214, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 🇺🇸 _US_美国_17, server: 54.188.86.128, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 🇺🇸 _US_美国_18, server: 44.244.24.140, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 🇺🇦 _UA_乌克兰, server: 95.164.4.238, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: YmFlMDJh, udp: true}
+  - {name: 🇷🇺 _RU_俄罗斯_2, server: 194.87.82.28, port: 12224, type: ss, cipher: chacha20-ietf-poly1305, password: 2fwufOmJ9ELfN4umzcHBfV, udp: true}
+  - {name: 🇵🇦 _PA_巴拿马, server: 138.186.142.4, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: 🇩🇪 _DE_德国, server: 45.87.175.154, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 US²_2|0.6MB/s|18%|GPT|YT-CN|TK|NF|X|KeepHistory
-      - _CN_中国
-      - 🇨🇳 _CN_中国_1
-      - 🇯🇵 日本4|@ripaojiedian
+      - 🇷🇺 _RU_俄罗斯_1
       - 🇺🇸 _US_美国_1
-      - 🇳🇱 _NL_荷兰_1
-      - 🇨🇳 CN-144.48.180.186-7884
-      - 🇨🇳 _CN_中国_2
-      - 🇳🇱 _NL_荷兰_2
-      - 🇸🇪 _SE_瑞典
+      - 🇺🇸 _US_美国_2
+      - 🇺🇸 _US_美国_3
+      - 🇺🇸 _US_美国_4
+      - 🇺🇸 _US_美国_5
+      - 🇺🇸 _US_美国_6
+      - 🇺🇸 _US_美国_7
       - 🇺🇸 _US_美国_8
-      - 🇷🇺 _RU_俄罗斯
-      - 🇰🇷 _KR_韩国
+      - 🇺🇸 _US_美国_9
+      - 🇺🇸 _US_美国_10
+      - 🇺🇸 _US_美国_11
+      - 🇺🇸 _US_美国_12
+      - 🇺🇸 _US_美国_13
+      - 🇺🇸 _US_美国_14
+      - 🇺🇸 _GB_英国->🇺🇸_US_美国
+      - 🇩🇪 _DE_德国->🇹🇷_TR_土耳其
+      - 🇺🇸 _US_美国_15
+      - 🇺🇸 _US_美国->🇨🇳_CN_中国
+      - 🇸🇬 _SG_新加坡
+      - 🇺🇸 _US_美国_16
+      - 🇺🇸 _US_美国_17
+      - 🇺🇸 _US_美国_18
+      - 🇺🇦 _UA_乌克兰
+      - 🇷🇺 _RU_俄罗斯_2
+      - 🇵🇦 _PA_巴拿马
+      - 🇩🇪 _DE_德国
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇸 US²_2|0.6MB/s|18%|GPT|YT-CN|TK|NF|X|KeepHistory
-      - _CN_中国
-      - 🇨🇳 _CN_中国_1
-      - 🇯🇵 日本4|@ripaojiedian
+      - 🇷🇺 _RU_俄罗斯_1
       - 🇺🇸 _US_美国_1
-      - 🇳🇱 _NL_荷兰_1
-      - 🇨🇳 CN-144.48.180.186-7884
-      - 🇨🇳 _CN_中国_2
-      - 🇳🇱 _NL_荷兰_2
-      - 🇸🇪 _SE_瑞典
+      - 🇺🇸 _US_美国_2
+      - 🇺🇸 _US_美国_3
+      - 🇺🇸 _US_美国_4
+      - 🇺🇸 _US_美国_5
+      - 🇺🇸 _US_美国_6
+      - 🇺🇸 _US_美国_7
       - 🇺🇸 _US_美国_8
-      - 🇷🇺 _RU_俄罗斯
-      - 🇰🇷 _KR_韩国
+      - 🇺🇸 _US_美国_9
+      - 🇺🇸 _US_美国_10
+      - 🇺🇸 _US_美国_11
+      - 🇺🇸 _US_美国_12
+      - 🇺🇸 _US_美国_13
+      - 🇺🇸 _US_美国_14
+      - 🇺🇸 _GB_英国->🇺🇸_US_美国
+      - 🇩🇪 _DE_德国->🇹🇷_TR_土耳其
+      - 🇺🇸 _US_美国_15
+      - 🇺🇸 _US_美国->🇨🇳_CN_中国
+      - 🇸🇬 _SG_新加坡
+      - 🇺🇸 _US_美国_16
+      - 🇺🇸 _US_美国_17
+      - 🇺🇸 _US_美国_18
+      - 🇺🇦 _UA_乌克兰
+      - 🇷🇺 _RU_俄罗斯_2
+      - 🇵🇦 _PA_巴拿马
+      - 🇩🇪 _DE_德国
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 US²_2|0.6MB/s|18%|GPT|YT-CN|TK|NF|X|KeepHistory
-      - _CN_中国
-      - 🇨🇳 _CN_中国_1
-      - 🇯🇵 日本4|@ripaojiedian
+      - 🇷🇺 _RU_俄罗斯_1
       - 🇺🇸 _US_美国_1
-      - 🇳🇱 _NL_荷兰_1
-      - 🇨🇳 CN-144.48.180.186-7884
-      - 🇨🇳 _CN_中国_2
-      - 🇳🇱 _NL_荷兰_2
-      - 🇸🇪 _SE_瑞典
+      - 🇺🇸 _US_美国_2
+      - 🇺🇸 _US_美国_3
+      - 🇺🇸 _US_美国_4
+      - 🇺🇸 _US_美国_5
+      - 🇺🇸 _US_美国_6
+      - 🇺🇸 _US_美国_7
       - 🇺🇸 _US_美国_8
-      - 🇷🇺 _RU_俄罗斯
-      - 🇰🇷 _KR_韩国
+      - 🇺🇸 _US_美国_9
+      - 🇺🇸 _US_美国_10
+      - 🇺🇸 _US_美国_11
+      - 🇺🇸 _US_美国_12
+      - 🇺🇸 _US_美国_13
+      - 🇺🇸 _US_美国_14
+      - 🇺🇸 _GB_英国->🇺🇸_US_美国
+      - 🇩🇪 _DE_德国->🇹🇷_TR_土耳其
+      - 🇺🇸 _US_美国_15
+      - 🇺🇸 _US_美国->🇨🇳_CN_中国
+      - 🇸🇬 _SG_新加坡
+      - 🇺🇸 _US_美国_16
+      - 🇺🇸 _US_美国_17
+      - 🇺🇸 _US_美国_18
+      - 🇺🇦 _UA_乌克兰
+      - 🇷🇺 _RU_俄罗斯_2
+      - 🇵🇦 _PA_巴拿马
+      - 🇩🇪 _DE_德国
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -92,19 +148,33 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 US²_2|0.6MB/s|18%|GPT|YT-CN|TK|NF|X|KeepHistory
-      - _CN_中国
-      - 🇨🇳 _CN_中国_1
-      - 🇯🇵 日本4|@ripaojiedian
+      - 🇷🇺 _RU_俄罗斯_1
       - 🇺🇸 _US_美国_1
-      - 🇳🇱 _NL_荷兰_1
-      - 🇨🇳 CN-144.48.180.186-7884
-      - 🇨🇳 _CN_中国_2
-      - 🇳🇱 _NL_荷兰_2
-      - 🇸🇪 _SE_瑞典
+      - 🇺🇸 _US_美国_2
+      - 🇺🇸 _US_美国_3
+      - 🇺🇸 _US_美国_4
+      - 🇺🇸 _US_美国_5
+      - 🇺🇸 _US_美国_6
+      - 🇺🇸 _US_美国_7
       - 🇺🇸 _US_美国_8
-      - 🇷🇺 _RU_俄罗斯
-      - 🇰🇷 _KR_韩国
+      - 🇺🇸 _US_美国_9
+      - 🇺🇸 _US_美国_10
+      - 🇺🇸 _US_美国_11
+      - 🇺🇸 _US_美国_12
+      - 🇺🇸 _US_美国_13
+      - 🇺🇸 _US_美国_14
+      - 🇺🇸 _GB_英国->🇺🇸_US_美国
+      - 🇩🇪 _DE_德国->🇹🇷_TR_土耳其
+      - 🇺🇸 _US_美国_15
+      - 🇺🇸 _US_美国->🇨🇳_CN_中国
+      - 🇸🇬 _SG_新加坡
+      - 🇺🇸 _US_美国_16
+      - 🇺🇸 _US_美国_17
+      - 🇺🇸 _US_美国_18
+      - 🇺🇦 _UA_乌克兰
+      - 🇷🇺 _RU_俄罗斯_2
+      - 🇵🇦 _PA_巴拿马
+      - 🇩🇪 _DE_德国
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -115,56 +185,98 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇺🇸 US²_2|0.6MB/s|18%|GPT|YT-CN|TK|NF|X|KeepHistory
-      - _CN_中国
-      - 🇨🇳 _CN_中国_1
-      - 🇯🇵 日本4|@ripaojiedian
+      - 🇷🇺 _RU_俄罗斯_1
       - 🇺🇸 _US_美国_1
-      - 🇳🇱 _NL_荷兰_1
-      - 🇨🇳 CN-144.48.180.186-7884
-      - 🇨🇳 _CN_中国_2
-      - 🇳🇱 _NL_荷兰_2
-      - 🇸🇪 _SE_瑞典
+      - 🇺🇸 _US_美国_2
+      - 🇺🇸 _US_美国_3
+      - 🇺🇸 _US_美国_4
+      - 🇺🇸 _US_美国_5
+      - 🇺🇸 _US_美国_6
+      - 🇺🇸 _US_美国_7
       - 🇺🇸 _US_美国_8
-      - 🇷🇺 _RU_俄罗斯
-      - 🇰🇷 _KR_韩国
+      - 🇺🇸 _US_美国_9
+      - 🇺🇸 _US_美国_10
+      - 🇺🇸 _US_美国_11
+      - 🇺🇸 _US_美国_12
+      - 🇺🇸 _US_美国_13
+      - 🇺🇸 _US_美国_14
+      - 🇺🇸 _GB_英国->🇺🇸_US_美国
+      - 🇩🇪 _DE_德国->🇹🇷_TR_土耳其
+      - 🇺🇸 _US_美国_15
+      - 🇺🇸 _US_美国->🇨🇳_CN_中国
+      - 🇸🇬 _SG_新加坡
+      - 🇺🇸 _US_美国_16
+      - 🇺🇸 _US_美国_17
+      - 🇺🇸 _US_美国_18
+      - 🇺🇦 _UA_乌克兰
+      - 🇷🇺 _RU_俄罗斯_2
+      - 🇵🇦 _PA_巴拿马
+      - 🇩🇪 _DE_德国
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇺🇸 US²_2|0.6MB/s|18%|GPT|YT-CN|TK|NF|X|KeepHistory
-      - _CN_中国
-      - 🇨🇳 _CN_中国_1
-      - 🇯🇵 日本4|@ripaojiedian
+      - 🇷🇺 _RU_俄罗斯_1
       - 🇺🇸 _US_美国_1
-      - 🇳🇱 _NL_荷兰_1
-      - 🇨🇳 CN-144.48.180.186-7884
-      - 🇨🇳 _CN_中国_2
-      - 🇳🇱 _NL_荷兰_2
-      - 🇸🇪 _SE_瑞典
+      - 🇺🇸 _US_美国_2
+      - 🇺🇸 _US_美国_3
+      - 🇺🇸 _US_美国_4
+      - 🇺🇸 _US_美国_5
+      - 🇺🇸 _US_美国_6
+      - 🇺🇸 _US_美国_7
       - 🇺🇸 _US_美国_8
-      - 🇷🇺 _RU_俄罗斯
-      - 🇰🇷 _KR_韩国
+      - 🇺🇸 _US_美国_9
+      - 🇺🇸 _US_美国_10
+      - 🇺🇸 _US_美国_11
+      - 🇺🇸 _US_美国_12
+      - 🇺🇸 _US_美国_13
+      - 🇺🇸 _US_美国_14
+      - 🇺🇸 _GB_英国->🇺🇸_US_美国
+      - 🇩🇪 _DE_德国->🇹🇷_TR_土耳其
+      - 🇺🇸 _US_美国_15
+      - 🇺🇸 _US_美国->🇨🇳_CN_中国
+      - 🇸🇬 _SG_新加坡
+      - 🇺🇸 _US_美国_16
+      - 🇺🇸 _US_美国_17
+      - 🇺🇸 _US_美国_18
+      - 🇺🇦 _UA_乌克兰
+      - 🇷🇺 _RU_俄罗斯_2
+      - 🇵🇦 _PA_巴拿马
+      - 🇩🇪 _DE_德国
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 US²_2|0.6MB/s|18%|GPT|YT-CN|TK|NF|X|KeepHistory
-      - _CN_中国
-      - 🇨🇳 _CN_中国_1
-      - 🇯🇵 日本4|@ripaojiedian
+      - 🇷🇺 _RU_俄罗斯_1
       - 🇺🇸 _US_美国_1
-      - 🇳🇱 _NL_荷兰_1
-      - 🇨🇳 CN-144.48.180.186-7884
-      - 🇨🇳 _CN_中国_2
-      - 🇳🇱 _NL_荷兰_2
-      - 🇸🇪 _SE_瑞典
+      - 🇺🇸 _US_美国_2
+      - 🇺🇸 _US_美国_3
+      - 🇺🇸 _US_美国_4
+      - 🇺🇸 _US_美国_5
+      - 🇺🇸 _US_美国_6
+      - 🇺🇸 _US_美国_7
       - 🇺🇸 _US_美国_8
-      - 🇷🇺 _RU_俄罗斯
-      - 🇰🇷 _KR_韩国
+      - 🇺🇸 _US_美国_9
+      - 🇺🇸 _US_美国_10
+      - 🇺🇸 _US_美国_11
+      - 🇺🇸 _US_美国_12
+      - 🇺🇸 _US_美国_13
+      - 🇺🇸 _US_美国_14
+      - 🇺🇸 _GB_英国->🇺🇸_US_美国
+      - 🇩🇪 _DE_德国->🇹🇷_TR_土耳其
+      - 🇺🇸 _US_美国_15
+      - 🇺🇸 _US_美国->🇨🇳_CN_中国
+      - 🇸🇬 _SG_新加坡
+      - 🇺🇸 _US_美国_16
+      - 🇺🇸 _US_美国_17
+      - 🇺🇸 _US_美国_18
+      - 🇺🇦 _UA_乌克兰
+      - 🇷🇺 _RU_俄罗斯_2
+      - 🇵🇦 _PA_巴拿马
+      - 🇩🇪 _DE_德国
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -180,19 +292,33 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 US²_2|0.6MB/s|18%|GPT|YT-CN|TK|NF|X|KeepHistory
-      - _CN_中国
-      - 🇨🇳 _CN_中国_1
-      - 🇯🇵 日本4|@ripaojiedian
+      - 🇷🇺 _RU_俄罗斯_1
       - 🇺🇸 _US_美国_1
-      - 🇳🇱 _NL_荷兰_1
-      - 🇨🇳 CN-144.48.180.186-7884
-      - 🇨🇳 _CN_中国_2
-      - 🇳🇱 _NL_荷兰_2
-      - 🇸🇪 _SE_瑞典
+      - 🇺🇸 _US_美国_2
+      - 🇺🇸 _US_美国_3
+      - 🇺🇸 _US_美国_4
+      - 🇺🇸 _US_美国_5
+      - 🇺🇸 _US_美国_6
+      - 🇺🇸 _US_美国_7
       - 🇺🇸 _US_美国_8
-      - 🇷🇺 _RU_俄罗斯
-      - 🇰🇷 _KR_韩国
+      - 🇺🇸 _US_美国_9
+      - 🇺🇸 _US_美国_10
+      - 🇺🇸 _US_美国_11
+      - 🇺🇸 _US_美国_12
+      - 🇺🇸 _US_美国_13
+      - 🇺🇸 _US_美国_14
+      - 🇺🇸 _GB_英国->🇺🇸_US_美国
+      - 🇩🇪 _DE_德国->🇹🇷_TR_土耳其
+      - 🇺🇸 _US_美国_15
+      - 🇺🇸 _US_美国->🇨🇳_CN_中国
+      - 🇸🇬 _SG_新加坡
+      - 🇺🇸 _US_美国_16
+      - 🇺🇸 _US_美国_17
+      - 🇺🇸 _US_美国_18
+      - 🇺🇦 _UA_乌克兰
+      - 🇷🇺 _RU_俄罗斯_2
+      - 🇵🇦 _PA_巴拿马
+      - 🇩🇪 _DE_德国
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
